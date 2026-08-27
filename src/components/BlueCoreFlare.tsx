@@ -119,13 +119,11 @@ export const BlueCoreFlare: React.FC<BlueCoreFlareProps> = ({ logoSrc }) => {
             }}
             className="w-full h-full flex items-center justify-center pointer-events-none select-none"
           >
-            <div
-              role="img"
-              aria-label={`${BRAND_CONFIG.BRAND_NAME} Hero Core Visual`}
-              className="max-w-[90%] max-h-[90%] w-full h-full bg-contain bg-center bg-no-repeat filter drop-shadow-[0_12px_45px_rgba(0,140,255,0.85)] drop-shadow-[0_0_35px_rgba(56,189,248,0.7)] pointer-events-none select-none"
-              style={{
-                backgroundImage: `url(${activeImage})`,
-              }}
+            <img
+              src={activeImage}
+              alt={`${BRAND_CONFIG.BRAND_NAME} Hero Core Visual`}
+              draggable={false}
+              className="max-w-[85%] max-h-[85%] w-auto h-auto object-contain filter drop-shadow-[0_12px_45px_rgba(0,140,255,0.85)] drop-shadow-[0_0_35px_rgba(56,189,248,0.7)] pointer-events-none select-none"
             />
           </motion.div>
         ) : (
