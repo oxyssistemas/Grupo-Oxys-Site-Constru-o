@@ -1,0 +1,6 @@
+{
+  "name": "Grupo Oxys | Tecnologia & Inovação",
+  "description": "Portal institucional corporativo do Grupo Oxys, ecossistema de tecnologia composto por Oxys Sistemas, Oxys TI, Oxys Cloud e Oxys Automação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
